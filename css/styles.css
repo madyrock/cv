@@ -15,10 +15,12 @@ img {
 }
 
 table, th, td {
-
+  width: 50%;
   border: 1px solid;
+  border-spacing: 2px;
   border-collapse: collapse;
   margin: auto;
+  font-size: 20px;
 }
 
 .table-profile {
@@ -51,6 +53,7 @@ hr {
 /* Experience */
 
 .Experience {
+
   margin: 2px;
   text-align: center;
   padding: 4%;
