@@ -1,0 +1,73 @@
+body{
+  background-color: #ffd8a6;
+
+}
+
+h1, h2 {
+  color: #3f3f44;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+table, th, td {
+
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.table-profile {
+ text-align: center;
+  margin: 50px auto;
+  padding: 2%;
+
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+/* Qualification */
+
+.Qualification {
+  margin: 2px;
+  text-align: center;
+  padding: 4%;
+}
+
+.Skills {
+  margin: 2px;
+  text-align: center;
+  padding: 4%;
+}
+
+/* Experience */
+
+.Experience {
+  margin: 2px;
+  text-align: center;
+  padding: 4%;
+
+}
+
+.contact {
+  margin: 2px;
+  text-align: center;
+  padding: 4%;
+}
+
+
+/* Address */
+
+.address {
+  margin: 2px;
+  text-align: center;
+  padding: 4%;
+}
