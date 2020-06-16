@@ -1,76 +1,70 @@
-body{
-  background-color: #ffd8a6;
-
+#header {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  background-color: #393e46;
+  color: white;
 }
-
-h1, h2 {
-  color: #3f3f44;
-}
-
-img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-table, th, td {
-  width: 50%;
-  border: 1px solid;
-  border-spacing: 2px;
-  border-collapse: collapse;
+#container{
   margin: auto;
-  font-size: 20px;
-}
-
-.table-profile {
- text-align: center;
-  margin: 50px auto;
-  padding: 2%;
-
+  padding: 0px;
+  padding-bottom: 20px;
 }
 
 hr {
-  border: dotted grey 6px;
-  border-bottom: none;
-  width: 4%;
+  border: none;
+  border-top: 3px;
 }
-
-/* Qualification */
-
-.Qualification {
-  margin: 2px;
-  text-align: center;
-  padding: 4%;
-}
-
-.Skills {
-  margin: 2px;
-  text-align: center;
-  padding: 4%;
-}
-
-/* Experience */
-
-.Experience {
-
-  margin: 2px;
-  text-align: center;
-  padding: 4%;
+img {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 
 }
-
-.contact {
-  margin: 2px;
-  text-align: center;
-  padding: 4%;
+p{
+  text-align: justify;
+  margin-right: 20px;
+}
+svg {
+  width: 20px;
+  height: 20px;
+  margin-top: 6px;
+}
+.name {
+  letter-spacing: 0.3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.web {
+  letter-spacing: 0.2em;
+  margin-top:20px;
+}
+.underline {
+ width: 470px;
+ height: 5px;
+ background-color: #ceced0
+}
+.exp{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #cdcdcf;
 }
 
+.exp1{
 
-/* Address */
+  display: grid;
+  grid-template-columns: 0.8fr 3fr 3fr;
+  margin-left: 40px;
+  margin-top: 20px;
+}
 
-.address {
-  margin: 2px;
-  text-align: center;
-  padding: 4%;
+#skil {
+  padding: auto;
+}
+.HTML5{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left:50px;
 }
